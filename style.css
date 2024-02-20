@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.cdnfonts.com/css/butcherman");
 
+:root {
+  --header-font: "Butcherman", sans-serif !important;
+}
+
 /* butcherman-latin-400-normal */
 @font-face {
   font-family: "Butcherman";
@@ -171,4 +175,8 @@ input[type="submit"]:active {
     width: calc(20vw - 2px);
     height: calc(20vw - 2px);
   }
+}
+
+.login_header_title {
+  font-family: var(--header-font) !important;
 }

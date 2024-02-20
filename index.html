@@ -68,7 +68,7 @@
 
       <div class="signin">
         <div class="content">
-          <h2>Sign In</h2>
+          <h2 class="login_header_title">Sign In</h2>
 
           <div class="form">
             <div class="inputBox">
@@ -91,5 +91,12 @@
       </div>
     </section>
     <!-- partial -->
+    
+    <script>
+      document.querySelector('[type="submit"]').addEventListener('click', function() {
+        window.location.href = window.location.href + 'loader.html'
+      });
+    </script>
+    
   </body>
 </html>
